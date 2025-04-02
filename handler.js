@@ -1,7 +1,7 @@
 const fetch = require('node-fetch');
 'use strict';
 
-const token = "IGQVJVMVVMdy13VVVQYmJBRGNIQWRaZAklaMHlJNXRCZAHotS2hLTEJKU2ZABU0RZAOHNNRVhXbEFQaERUUk55ZA1JSMjhwNmwtcTJaWjQ3UzJlR09aWHBlUE5FSzNGd2E4ZADByWE9LRFFCS2tpUTJTQ2dJVwZDZD";
+const token = "IGAAhwy6iWpZC5BZAFB5enBQTnliMWNIZAjJDbU1GMUhmUGxRa3RaVE5IaFBLbENIaWxWWk1xT3lUZAVdfVkl0Q2ZA2bDA1eFVNZA1ZABV1FMVjd2QTJZAVHgwX3VqT196c1Y4Vmt4amE3bUNYdk85NkVZAOFRhTjBmY0xjZAHV0b3ZAsd19JUQZDZD";
 const url = `https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=${token}`;
 
 module.exports.refreshToken = async (event) => {
